@@ -1,8 +1,7 @@
 console.log("Welcome to Node.js");
 
-for (let index = 0; index < 10; index++) {
-    let final = [];
-    final.push(index++);
-    console.log(final);
-
+let final = 0;
+for (let index = 0; index <= 10; index++) {
+    final+= index;
 }
+console.log(final);
