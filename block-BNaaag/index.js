@@ -1,3 +1,5 @@
-const fs = require('fs');
+var {readFile} = require('fs');
 
-fs.readFile('index.md');
+readFile('content.md', 'utf8', (err, content) =>{
+    console.log(content);
+});
