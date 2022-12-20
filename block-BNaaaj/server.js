@@ -6,6 +6,8 @@ const parcedUrl = url.parse(
 
 console.log(parcedUrl.query(), parcedUrl.pathname(), parcedUrl.protocol());
 
-var queryString = (parcedUrl.query());
+var queryString = (parcedUrl.query);
+
+console.log(queryString);
 
 
